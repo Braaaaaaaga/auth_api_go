@@ -210,7 +210,7 @@ Use o **Postman** ou outra ferramenta para testar os endpoints. Certifique-se de
 - [x] Configuração com Viper.
 - [x] Endpoints para login.
 - [x] Registro de logs de login.
-- [x] Adicionar suporte ao Docker.
+- [ ] Adicionar suporte ao Docker.
 - [ ] Implementar endpoint para listar logs de login.
 
 
