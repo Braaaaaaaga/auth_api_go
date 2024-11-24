@@ -1,0 +1,91 @@
+# ----------------------------------------
+# Geral do Go
+# ----------------------------------------
+
+# Arquivos binários gerados pelo Go
+/bin/
+/build/
+/dist/
+*.exe
+*.out
+*.o
+
+# Módulos baixados pelo Go
+/pkg/mod/
+/vendor/
+
+# Caches do Go
+/go.sum
+/go.work
+
+# ----------------------------------------
+# Editor/IDE
+# ----------------------------------------
+
+# Diretórios e arquivos criados por editores e IDEs
+.idea/
+.vscode/
+*.swp         # Arquivos temporários do Vim
+*.swo         # Arquivos de backup do Vim
+*.DS_Store    # Arquivo do macOS para metadados de diretórios
+*.iml         # Arquivos de configuração de projeto IntelliJ
+
+# ----------------------------------------
+# Arquivos Sensíveis
+# ----------------------------------------
+
+# Arquivo de configuração das variáveis de ambiente
+.env
+
+# Certificados ou chaves privadas (se usadas)
+*.pem
+*.key
+*.crt
+
+# ----------------------------------------
+# Logs
+# ----------------------------------------
+
+# Logs gerados pela aplicação
+*.log
+/logs/
+
+# Logs do MongoDB (se configurado para salvar no projeto)
+/usr/local/var/log/mongodb/*.log
+
+# ----------------------------------------
+# Sistemas Operacionais
+# ----------------------------------------
+
+# Arquivos do macOS
+*.DS_Store
+
+# Arquivos do Linux
+*.pid
+*.pid.lock
+
+# Arquivos do Windows
+Thumbs.db
+desktop.ini
+
+# ----------------------------------------
+# Ferramentas de Teste
+# ----------------------------------------
+
+# Cobertura de testes gerada pelo `go test`
+*.cover
+*.cov
+*.test
+
+# ----------------------------------------
+# Outras Ferramentas
+# ----------------------------------------
+
+# Diretórios ou arquivos gerados pelo Docker (se configurado no futuro)
+docker-compose.override.yml
+docker-compose.override.yaml
+.dockerignore
+
+# Arquivos temporários criados pelo Postman ou cURL
+*.tmp
+*.temp
